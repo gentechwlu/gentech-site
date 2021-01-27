@@ -1,0 +1,237 @@
+html, body, #root, .App {
+  height:100%;
+  background-color: #3170ae;
+}
+
+
+body::-webkit-scrollbar {
+  width: 0.75em;
+  background-color: #3170ae;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 20px;
+}
+
+.container-fluid {
+  background-color: #e6e6e6;
+  color: black;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.navbar {
+  background-color: #3170ae;
+  padding-left: 65px;
+  padding-right: 65px;
+  font-size: 20px;
+}
+
+.navbar-nav .nav-spacing {
+  margin-left: 100px;
+}
+
+.navbar-nav button {
+  margin-left: 100px;
+}
+
+#intro h1 {
+  font-size: 50px;
+}
+
+#intro p {
+  padding-right: 200px;
+  font-size: 20px;
+}
+
+#intro .Typist {
+  display: inline;
+}
+
+#page-body {
+  padding-top: 55px;
+}
+
+.App {
+  background-color: #3170ae;
+}
+
+.scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  flex: 0 0 auto;
+  border-radius: 12px;
+  color: white;
+}
+
+.card-text::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+.card-text::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 20px;
+}
+
+.card-body .card-subtitle {
+  color: #e6e6e6 !important;
+}
+
+.container-title {
+  padding: 10px 35px;
+  padding-bottom: 25px;
+}
+
+.leader {
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.leader img {
+  width: 100%;
+  box-shadow: 0 4px 40px rgba(0,0,0,.2);
+}
+
+.leader h6 {
+  padding-top: 10px;
+}
+
+.leaders-grid {
+  padding: 15px 100px;
+  text-align: center;
+}
+
+.leader svg:hover {
+  fill: #004080
+}
+
+.about-content, .wwd-content {
+  padding: 20px 300px;
+  font-size: 25px;
+}
+
+footer {
+  background-color: #3170ae;
+  width: 100%;
+  color: white;
+  max-height: fit-content;
+  position: relative;
+  bottom: 0;
+}
+
+footer .row {
+  max-width: 80%;
+  margin: auto;
+}
+
+.icons {
+  text-align: end;
+}
+
+.icons a {
+  margin: 0 10px;
+}
+
+.icons svg:hover {
+  fill: rgb(173, 172, 172)
+}
+
+.copyright {
+  text-align: center;
+  color: white
+}
+
+.modal-content {
+  background-color: #3170ae !important;
+  color: white;
+}
+
+.modal-header .close {
+  color: white;
+}
+
+.modal-header, .modal-footer {
+  border: none;
+}
+
+.signUp {
+  width: 50%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .navbar-nav .nav-spacing {
+    margin-left: 0;
+  }
+
+  .navbar-nav button {
+    margin: auto;
+    width: 80%;
+  }
+
+  #intro p {
+    padding-right: 0;
+  }
+
+  .navbar {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #intro {
+    text-align: center;
+  }
+
+  .events-header {
+    padding: 15px 20px;
+    text-align: center;
+  }
+
+  .leader {
+    width: 50%;
+  }
+
+  .leaders-grid {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .about-content, .wwd-content {
+    padding: 10px 10px;
+    font-size: 25px;
+  }
+
+  footer .row {
+    max-width: 80%;
+    margin: auto;
+  }
+  
+  .icons {
+    text-align: center;
+  }
+  
+  .icons a {
+    margin: 0 10px;
+  }
+
+  .signUp {
+    width: 90%;
+  }
+}
